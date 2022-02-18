@@ -32,6 +32,10 @@
 	font-size: 0;
 }
 
+.pn-ProductNav::-webkit-scrollbar {
+    display: none;
+}
+
 .pn-ProductNav_Contents {
 	float: left;
 	transition: transform .2s ease-in-out;
